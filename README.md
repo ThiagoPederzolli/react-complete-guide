@@ -36,3 +36,27 @@ An in-depth exploration of React's core concepts, building a solid foundation in
 - Dynamic rendering: Conditional content, rendering lists dynamically, dynamic styling
 - Best practices: Project structure, file organization, component splitting strategies
 - Advanced patterns: Fragments, forwarding props, multiple JSX slots, dynamic component types, default prop values
+
+## [Tic-Tac-Toe Game]()
+A fully functional two-player Tic-Tac-Toe game built with React, focusing on advanced state management patterns and component composition. The game features player name customization, turn-based gameplay, win/draw detection, and a complete game-over screen with restart functionality.
+#### Key topics covered:
+- State management patterns: Lifting state up, deriving computed values, avoiding unnecessary state
+- Immutable state updates: Properly updating arrays and objects without mutations
+- Component architecture: Splitting components by feature, creating reusable UI elements, component isolation
+- Two-way binding: Managing user input for dynamic player names
+- Advanced rendering: Multi-dimensional lists (game board), conditional content rendering
+- State derivation: Computing values from other computed values, reducing state complexity
+- Best practices: Updating state based on previous state, avoiding intersecting states, data organization in separate files
+
+## [Investment Calculator]()
+A financial calculator application that computes investment returns over time based on user inputs. Built independently to reinforce React fundamentals, featuring dynamic calculations, real-time updates, and a clean user interface for financial planning.
+
+#### Key topics covered:
+
+- Component composition: Fragments, flexible components with prop forwarding, multiple JSX slots
+- State management: Two-way binding for form inputs, lifting state for shared data access
+- Dynamic rendering: Conditional content display, rendering calculated results dynamically
+- Computed values: Deriving financial calculations from state without unnecessary re-renders
+- Immutable state updates: Properly managing complex state objects
+- Component patterns: Dynamic component types, default prop values, component splitting strategies
+- Best practices: Separating data logic, avoiding redundant state, efficient state derivation
