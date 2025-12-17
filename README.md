@@ -60,3 +60,18 @@ A financial calculator application that computes investment returns over time ba
 - Immutable state updates: Properly managing complex state objects
 - Component patterns: Dynamic component types, default prop values, component splitting strategies
 - Best practices: Separating data logic, avoiding redundant state, efficient state derivation
+
+## [CSS Module Project]()
+A comprehensive exploration of different styling approaches in React, from vanilla CSS to modern CSS-in-JS solutions and utility-first frameworks. This project demonstrates the implementation of the same application using multiple styling methodologies, comparing their strengths, limitations, and use cases.
+
+#### Key topics covered:
+
+- Vanilla CSS: Splitting CSS across multiple files, understanding global scope limitations, pros and cons
+- Inline styles: Dynamic and conditional styling with JavaScript objects, performance considerations
+- CSS Modules: Scoping CSS rules to components, preventing style conflicts, local vs global styles
+- Styled Components: CSS-in-JS approach, creating flexible styled components, component-based styling
+- Advanced Styled Components: Pseudo selectors, nested rules, media queries, dynamic props-based styling
+- Tailwind CSS: Utility-first framework setup, responsive design with media queries, pseudo selectors
+- Dynamic styling patterns: Conditional classes, dynamic inline styles, props-based styling across different approaches
+- Component architecture: Creating reusable styled components, component combinations, maintaining flexibility
+- Comparison & best practices: Evaluating pros and cons of each approach, choosing the right styling solution
