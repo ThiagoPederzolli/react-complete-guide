@@ -75,3 +75,16 @@ A comprehensive exploration of different styling approaches in React, from vanil
 - Dynamic styling patterns: Conditional classes, dynamic inline styles, props-based styling across different approaches
 - Component architecture: Creating reusable styled components, component combinations, maintaining flexibility
 - Comparison & best practices: Evaluating pros and cons of each approach, choosing the right styling solution
+
+## [Debugging Investment Calculator]()
+### React Debugging & Developer Tools
+A focused project on mastering debugging techniques and tools essential for React development. This module emphasizes identifying, diagnosing, and resolving common React errors through systematic debugging approaches and professional developer tools.
+
+#### Key topics covered:
+
+- Error diagnosis: Reading and understanding React error messages, stack traces, and warnings
+- Browser debugging: Using browser DevTools debugger, setting breakpoints, stepping through code
+- React Strict Mode: Understanding double-rendering behavior, identifying side effects, development vs production mode
+- React DevTools: Component tree inspection, props and state debugging, performance profiling
+- Debugging strategies: Systematic error identification, isolating problems, testing solutions
+- Best practices: Preventing common errors, writing debuggable code, using development tools effectively
