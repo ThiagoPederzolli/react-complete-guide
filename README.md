@@ -88,3 +88,19 @@ A focused project on mastering debugging techniques and tools essential for Reac
 - React DevTools: Component tree inspection, props and state debugging, performance profiling
 - Debugging strategies: Systematic error identification, isolating problems, testing solutions
 - Best practices: Preventing common errors, writing debuggable code, using development tools effectively
+
+## [Refs and Portals Project]()
+A deep dive into React's advanced DOM manipulation and component communication patterns through Refs and Portals. This project explores when and how to access DOM elements directly, manage non-state values, and render components outside the normal DOM hierarchy for better UI architecture.
+
+#### Key topics covered:
+
+- State management review: Two-way binding patterns, managing user input with state, fragments for cleaner JSX
+- Refs fundamentals: Connecting to HTML elements via useRef, accessing and reading DOM values, when to use refs vs state
+- DOM manipulation: Direct DOM access through refs, understanding the differences between refs and state values
+- Beyond DOM connections: Using refs for persistent values across renders, managing timers and intervals with refs
+- Modal components: Building reusable modal dialogs, conditional rendering patterns, user interaction handling
+- Forwarding refs: Passing refs to custom components with forwardRef, exposing child component APIs to parents
+- useImperativeHandle hook: Creating imperative APIs for components, exposing controlled methods to parent components
+- Advanced ref patterns: Combining refs with state, keyboard event handling (ESC key), cleanup patterns
+- Portals introduction: Rendering components outside the DOM hierarchy, semantic HTML improvements, overlay patterns
+- Best practices: Choosing between refs and state, component API design, accessibility considerations
