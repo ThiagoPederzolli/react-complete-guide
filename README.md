@@ -104,3 +104,24 @@ A deep dive into React's advanced DOM manipulation and component communication p
 - Advanced ref patterns: Combining refs with state, keyboard event handling (ESC key), cleanup patterns
 - Portals introduction: Rendering components outside the DOM hierarchy, semantic HTML improvements, overlay patterns
 - Best practices: Choosing between refs and state, component API design, accessibility considerations
+
+## [Project Management]()
+A complete React project management application demonstrating state management, component architecture, and advanced React patterns. This project builds a full-featured app for creating, viewing, and managing projects with associated tasks, emphasizing component reusability and clean code organization.
+
+#### Key topics covered:
+
+- Component architecture: Building a sidebar navigation, splitting components for better reusability, organizing JSX and Tailwind styles
+- Tailwind CSS styling: Styling buttons, inputs, sidebars, and modals using Tailwind utility classes, creating consistent UI patterns
+- State management patterns: Managing application state to switch between different views (project list, new project form, project details)
+- Refs and forwarded refs: Collecting user input with useRef, forwarding refs to custom components with forwardRef for flexible input handling
+- Form handling: Managing project creation forms, collecting multiple input values, handling form submission
+- Input validation: Validating user input before processing, providing feedback for incomplete or invalid data
+- Modal components: Building error modals for user feedback, styling modals with Tailwind CSS
+- useImperativeHandle hook: Exposing imperative component APIs to parent components, controlling modal visibility from outside
+- Dynamic UI updates: Adding new projects to the UI, rendering project lists, making projects selectable
+- Project details view: Displaying selected project information, switching between different project views
+- Project deletion: Implementing delete functionality, updating state to remove projects, handling UI updates
+- Task management: Adding a tasks component, managing tasks within projects, adding and displaying tasks
+- Prop drilling: Understanding and managing data flow through multiple component layers, passing state and handlers through props
+- Task operations: Clearing individual tasks, fixing edge cases and minor bugs in task management
+- Component communication: Coordinating between sibling components, lifting state up, managing complex component interactions
