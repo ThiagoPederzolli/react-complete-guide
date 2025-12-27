@@ -146,3 +146,23 @@ An in-depth exploration of React's Context API and useReducer hook for managing 
 - Actions and dispatching: Dispatching actions to update state, editing state through reducer functions, action types and payloads
 - State management patterns: Comparing useState vs useReducer, choosing the right state management approach for different scenarios
 - Best practices: Organizing context providers, structuring reducer logic, combining Context API with useReducer for robust state management
+
+## [Side Effects & useEffect Hook]()
+A comprehensive exploration of side effects in React and the useEffect hook for managing them. This module covers when and how to handle side effects properly, understanding effect dependencies, cleanup patterns, and optimization techniques to prevent common pitfalls like infinite loops and unnecessary re-renders.
+
+#### Key topics covered:
+
+- Side effects fundamentals: Understanding what side effects are in React, identifying side effects in components through practical examples
+- Infinite loop problems: Recognizing how side effects can cause infinite render loops, understanding why some side effects are problematic
+- useEffect hook introduction: Using useEffect to handle side effects safely, managing when effects run during component lifecycle
+- When useEffect is unnecessary: Identifying side effects that don't require useEffect, avoiding overuse of useEffect for simple operations
+- Event handlers vs effects: Understanding when to handle side effects in event handlers instead of useEffect, choosing the right approach
+- Browser API synchronization: Using useEffect to sync with browser APIs (localStorage, timers, etc.), managing external system interactions
+- Effect dependencies: Understanding the dependency array, controlling when effects re-run, specifying dependencies correctly
+- Bug fixing: Identifying and resolving common useEffect-related bugs, debugging effect behavior
+- Cleanup functions: Introducing useEffect's cleanup function, preventing memory leaks and stale effects, cleaning up subscriptions and timers
+- Cleanup patterns: Multiple examples of cleanup function usage, understanding when and why cleanup is needed
+- Object and function dependencies: Understanding problems with objects and functions as dependencies, dealing with reference equality issues
+- useCallback hook: Memoizing functions with useCallback, preventing unnecessary effect re-runs caused by function recreations
+- State update optimization: Optimizing state updates within effects, using functional updates to avoid dependency issues
+- Best practices: Choosing between useEffect and event handlers, managing complex dependencies, writing efficient and maintainable effects
