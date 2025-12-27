@@ -125,3 +125,24 @@ A complete React project management application demonstrating state management, 
 - Prop drilling: Understanding and managing data flow through multiple component layers, passing state and handlers through props
 - Task operations: Clearing individual tasks, fixing edge cases and minor bugs in task management
 - Component communication: Coordinating between sibling components, lifting state up, managing complex component interactions
+
+## [Advanced State Management]()
+An in-depth exploration of React's Context API and useReducer hook for managing complex state and avoiding prop drilling. This module demonstrates how to refactor applications to use global state management patterns, making data accessible across component trees without passing props through every level.
+
+#### Key topics covered:
+
+- Prop drilling problems: Understanding the limitations of passing props through multiple component layers, identifying when prop drilling becomes problematic
+- Component composition: Using component composition as an alternative solution to prop drilling, restructuring component hierarchies
+- Context API introduction: Understanding React Context as a solution for sharing data across components, when to use Context vs props
+- Creating context: Setting up context with createContext, defining context structure and default values
+- Providing context: Wrapping components with Context Provider, making context values available to component trees
+- Consuming context: Accessing context values in child components using useContext hook, reading data from context
+- Context with state: Linking Context API with useState, managing dynamic context values that change over time
+- Alternative consumption patterns: Different ways to consume context (useContext hook vs Context.Consumer), choosing the right approach
+- Context value updates: Understanding how context changes trigger re-renders, performance considerations with context updates
+- Full migration: Refactoring an entire project to use Context API, removing prop drilling throughout the application
+- Provider components: Creating separate provider components, outsourcing context and state logic for better organization and reusability
+- useReducer hook introduction: Understanding useReducer as an alternative to useState for complex state logic, reducer function patterns
+- Actions and dispatching: Dispatching actions to update state, editing state through reducer functions, action types and payloads
+- State management patterns: Comparing useState vs useReducer, choosing the right state management approach for different scenarios
+- Best practices: Organizing context providers, structuring reducer logic, combining Context API with useReducer for robust state management
