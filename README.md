@@ -166,3 +166,23 @@ A comprehensive exploration of side effects in React and the useEffect hook for 
 - useCallback hook: Memoizing functions with useCallback, preventing unnecessary effect re-runs caused by function recreations
 - State update optimization: Optimizing state updates within effects, using functional updates to avoid dependency issues
 - Best practices: Choosing between useEffect and event handlers, managing complex dependencies, writing efficient and maintainable effects
+## [Quiz Application Project]()
+A complete quiz application built with React, demonstrating advanced state management, timer implementation, and component architecture patterns. This project showcases practical application of useEffect, useCallback, and component composition while building a fully-featured quiz with timed questions, answer validation, and result tracking.
+
+#### Key topics covered:
+
+- Component setup: Building the initial quiz component structure, managing quiz state with useState
+- Derived values: Computing values from existing state, outputting dynamic questions, registering and tracking user answers
+- Answer shuffling: Randomizing answer order for each question, implementing quiz logic and flow control
+- Timer implementation: Adding countdown timers to questions, managing time-based state updates, handling timer expiration
+- Effect dependencies management: Working with complex useEffect dependencies, using useCallback to stabilize function references
+- Cleanup functions: Using effect cleanup to clear timers, preventing memory leaks with proper cleanup patterns
+- Component reset with keys: Using React keys to force component remounts, resetting component state effectively
+- Answer highlighting: Implementing visual feedback for selected answers, managing multiple state values for UI updates
+- State management patterns: Tracking answer states (selected, correct, incorrect), managing complex UI state transitions
+- Component splitting: Breaking down large components into smaller, focused components to solve state and rendering problems
+- Moving state down: Refactoring state to live in components that actually use it, improving component organization and performance
+- Conditional timers: Setting different timer durations based on answer selection and validation state
+- Quiz results: Calculating and displaying final quiz results, showing score and answer summary
+- Component architecture: Organizing quiz logic across multiple components, managing parent-child communication effectively
+- Performance optimization: Preventing unnecessary re-renders, optimizing effect execution with proper dependencies
