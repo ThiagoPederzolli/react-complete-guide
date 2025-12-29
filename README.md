@@ -206,3 +206,19 @@ A deep dive into React's internal workings and performance optimization techniqu
 - State batching: How React batches updates together, optimizing rendering by grouping state changes
 - Advanced optimization: Introduction to MillionJS for React optimization, exploring third-party performance enhancement tools
 - Best practices: When to optimize and when not to, balancing code complexity with performance gains, measuring before optimizing
+
+## [Class-based Components]()
+An exploration of React's class-based component syntax and lifecycle methods. This module covers the traditional approach to building React components before hooks were introduced, understanding component lifecycle, and learning about error boundaries - a feature still exclusive to class components.
+
+#### Key topics covered:
+
+- Class components introduction: Understanding what class-based components are, why they were used historically, when they're still relevant today
+- Creating class components: Adding the first class-based component, converting functional components to class syntax, understanding the class component structure
+- State and events in classes: Managing state with this.state and this.setState(), handling events in class components, binding methods correctly
+- Component lifecycle: Understanding the component lifecycle exclusive to class-based components, learning lifecycle phases (mounting, updating, unmounting)
+- Lifecycle methods: Implementing lifecycle methods in action (componentDidMount, componentDidUpdate, componentWillUnmount), understanding when each method runs
+- Context in class components: Using Context API with class-based components, accessing context with this.context and Context.Consumer
+- Comparison summary: Class-based vs functional components comparison, understanding the differences in syntax and capabilities, when to use each approach
+- Error boundaries: Introducing error boundaries for catching JavaScript errors in component trees, implementing componentDidCatch and getDerivedStateFromError
+- Error handling: Creating error boundary components to gracefully handle errors, displaying fallback UI when errors occur, understanding error boundary limitations
+- Modern React context: Understanding that class components are legacy but still supported, recognizing that functional components with hooks are the modern standard
