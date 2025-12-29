@@ -186,3 +186,23 @@ A complete quiz application built with React, demonstrating advanced state manag
 - Quiz results: Calculating and displaying final quiz results, showing score and answer summary
 - Component architecture: Organizing quiz logic across multiple components, managing parent-child communication effectively
 - Performance optimization: Preventing unnecessary re-renders, optimizing effect execution with proper dependencies
+
+## [React Performance Optimization & Behind The Scenes]()
+A deep dive into React's internal workings and performance optimization techniques. This module explores how React builds and manages the component tree, when components re-render, and various strategies to optimize application performance through memoization, proper component structure, and understanding React's rendering mechanism.
+
+#### Key topics covered:
+
+- Component tree structure: Understanding how React builds and manages the component tree, exploring React's internal architecture
+- React DevTools Profiler: Analyzing component function executions, identifying performance bottlenecks, measuring render performance
+- memo() optimization: Using React.memo() to prevent unnecessary component re-renders, understanding when memoization helps
+- Component structuring: Avoiding re-renders through clever component organization, optimizing component hierarchy without additional APIs
+- useCallback hook deep dive: Understanding useCallback for memoizing functions, preventing child component re-renders caused by function recreation
+- useMemo hook: Memoizing expensive calculations with useMemo, optimizing derived values and complex computations
+- Virtual DOM exploration: Understanding React's Virtual DOM concept, how React compares and updates the actual DOM efficiently
+- Keys and state management: Why keys are crucial for proper state management, how React uses keys to identify components
+- Key importance: Additional scenarios demonstrating why keys matter, preventing state bugs with proper key usage
+- Resetting components with keys: Using key changes to force component remounts, managing component lifecycle through keys
+- State scheduling: Understanding how React schedules state updates, batching multiple state updates for performance
+- State batching: How React batches updates together, optimizing rendering by grouping state changes
+- Advanced optimization: Introduction to MillionJS for React optimization, exploring third-party performance enhancement tools
+- Best practices: When to optimize and when not to, balancing code complexity with performance gains, measuring before optimizing
