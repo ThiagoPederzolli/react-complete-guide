@@ -222,3 +222,24 @@ An exploration of React's class-based component syntax and lifecycle methods. Th
 - Error boundaries: Introducing error boundaries for catching JavaScript errors in component trees, implementing componentDidCatch and getDerivedStateFromError
 - Error handling: Creating error boundary components to gracefully handle errors, displaying fallback UI when errors occur, understanding error boundary limitations
 - Modern React context: Understanding that class components are legacy but still supported, recognizing that functional components with hooks are the modern standard
+
+## [HTTP Requests & Data Fetching]()
+A comprehensive guide to connecting React applications with backend APIs and databases. This module covers best practices for fetching and sending data, handling asynchronous operations, managing loading and error states, and implementing optimistic UI updates for better user experience.
+
+#### Key topics covered:
+
+- Database connection fundamentals: Understanding why direct database connections from React are problematic, learning the proper architecture for data fetching
+- Backend API setup: Starting with a dummy backend API, preparing the development environment for HTTP requests
+- App preparation: Structuring the app to handle data fetching, setting up components for async data operations
+- Common mistakes: Learning how NOT to send HTTP requests, understanding why certain approaches are wrong and cause problems
+- GET requests with useEffect: Properly sending HTTP GET requests using useEffect hook, fetching data when components mount
+- Async/await syntax: Using modern async/await syntax for cleaner asynchronous code, handling promises effectively
+- Loading states: Implementing loading indicators, managing UI state during data fetching, providing user feedback
+- Error handling: Catching and handling HTTP errors gracefully, displaying error messages to users, recovering from failed requests
+- Data transformation: Processing and transforming fetched data before using it in components, mapping API responses to component needs
+- Code organization: Extracting data fetching logic into reusable functions, improving code structure and maintainability
+- POST requests: Sending data to the server with POST requests, creating new resources, handling request payloads
+- Optimistic updates: Implementing optimistic UI updates for instant user feedback, updating UI before server confirmation, handling rollback scenarios
+- DELETE requests: Removing data via DELETE HTTP requests, managing state after deletions, confirming destructive actions
+- Practice exercises: Hands-on practice with data fetching patterns, reinforcing learned concepts through application
+- Best practices: Proper error boundaries, loading state management, request cancellation, avoiding race conditions
