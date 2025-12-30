@@ -243,3 +243,17 @@ A comprehensive guide to connecting React applications with backend APIs and dat
 - DELETE requests: Removing data via DELETE HTTP requests, managing state after deletions, confirming destructive actions
 - Practice exercises: Hands-on practice with data fetching patterns, reinforcing learned concepts through application
 - Best practices: Proper error boundaries, loading state management, request cancellation, avoiding race conditions
+
+## [Custom React Hooks]()
+A focused exploration of creating custom React hooks to extract and reuse component logic. This module teaches how to build flexible, reusable hooks that encapsulate stateful logic, side effects, and complex functionality that can be shared across multiple components, following React's rules of hooks.
+
+#### Key topics covered:
+
+- Rules of hooks review: Revisiting the fundamental rules of hooks (only call at top level, only in React functions), understanding why hooks exist and their benefits
+- Custom hook creation: Building your first custom hook, understanding custom hook naming conventions (use prefix), extracting reusable logic
+- State management in hooks: Managing state within custom hooks using useState, returning state values to components that use the hook
+- Returning multiple values: Structuring return values from custom hooks (objects vs arrays), providing both state and updater functions
+- Exposing nested functions: Creating and exposing helper functions from custom hooks, building complete APIs for hook consumers
+- Hook reusability: Using the same custom hook in multiple components, sharing logic without code duplication, managing independent state instances
+- Flexible hook design: Creating configurable custom hooks that accept parameters, building hooks that adapt to different use cases and requirements
+- Best practices: Designing intuitive hook APIs, choosing what to expose and what to keep internal, making hooks truly reusable and maintainable
