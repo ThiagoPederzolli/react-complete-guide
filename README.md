@@ -257,3 +257,25 @@ A focused exploration of creating custom React hooks to extract and reuse compon
 - Hook reusability: Using the same custom hook in multiple components, sharing logic without code duplication, managing independent state instances
 - Flexible hook design: Creating configurable custom hooks that accept parameters, building hooks that adapt to different use cases and requirements
 - Best practices: Designing intuitive hook APIs, choosing what to expose and what to keep internal, making hooks truly reusable and maintainable
+
+## [Working with Forms & User Input]()
+A comprehensive guide to handling forms in React, covering multiple approaches to collecting and validating user input. This module explores different strategies for form management, from basic state handling to custom hooks and third-party libraries, with emphasis on validation patterns and creating reusable form components.
+
+#### Key topics covered:
+
+- Forms fundamentals: Understanding what makes forms tricky in React, identifying common challenges with form handling and validation
+- Form submission: Handling form submit events, preventing default browser behavior, extracting form data on submission
+- State-based input management: Managing input values with state, creating generic change handlers, two-way binding patterns
+- Refs for input values: Getting user input via refs as an alternative to state, understanding when refs are appropriate for forms
+- FormData API: Using native browser FormData API, leveraging built-in form handling capabilities, extracting multiple input values efficiently
+- Form reset: Implementing form reset functionality, clearing inputs after submission, resetting to initial state
+- Keystroke validation: Validating input on every keystroke using state, providing real-time feedback, managing validation state
+- Blur validation: Validating input when fields lose focus, implementing onBlur handlers, showing errors after user interaction
+- Submit validation: Validating entire form upon submission, preventing invalid form submission, displaying validation errors
+- Built-in validation: Using HTML5 validation attributes (required, pattern, min, max), leveraging browser validation capabilities
+- Mixed validation approaches: Combining custom JavaScript validation with built-in HTML validation, creating comprehensive validation strategies
+- Reusable input components: Building generic Input components with built-in validation, creating composable form building blocks
+- Validation logic extraction: Outsourcing validation functions for reusability, separating validation logic from component code
+- Custom useInput hook: Creating a custom hook to manage input state and validation, encapsulating form input logic for maximum reusability
+- Third-party libraries: Introduction to form libraries (React Hook Form, Formik), understanding when to use external solutions
+- Best practices: Choosing the right approach for different scenarios, balancing complexity with functionality, user experience considerations

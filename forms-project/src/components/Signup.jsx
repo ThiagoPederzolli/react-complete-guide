@@ -1,0 +1,143 @@
+import { useState } from "react";
+
+export default function Signup() {
+    const [passwordsArentEqual, setPasswordArentEqual] = useState(false);
+    function handleSubmit(event) {
+        event.preventDefault();
+        // for this work, all need to have the prop name
+        const formData = new FormData(event.target);
+
+        // pattern to quickly have all form values and group them as a object
+        // calling the entries of formDataObj will give us
+        // an array of all the input fields and their values
+        // then calling Objetc.fromEntries from that array will give us
+        // an object where we have key/value pares for all input fields 
+        const formObject = Object.fromEntries(formData.entries());
+        //the only problem with the logic above is that we lost some complex inputs
+        // the input that have more than one value possible, that returns an array
+        // but this is simple to fix, just use the logic below:
+        const acquisitionChannel = formData.getAll('acquisition');
+        formObject.acquisition = acquisitionChannel;
+        // and now we have the object updated with all key/values
+    
+
+        if (formObject.password !== formObject['confirm-password']) {
+            setPasswordArentEqual(true);
+        }
+
+        console.log('form', formObject);
+        console.log('acquisitionChannel', acquisitionChannel);
+
+    }
+    return (
+        <form onSubmit={handleSubmit}>
+        <h2>Welcome on board!</h2>
+        <p>We just need a little bit of data from you to get you started 🚀</p>
+
+        <div className="control">
+            <label htmlFor="email">Email</label>
+            <input
+                id="email"
+                type="email"
+                name="email"
+                required
+            />
+        </div>
+
+        <div className="control-row">
+            <div className="control">
+            <label htmlFor="password">Password</label>
+            <input
+                id="password"
+                type="password"
+                name="password"
+                required
+                minLength={6}
+            />
+            </div>
+
+            <div className="control">
+            <label htmlFor="confirm-password">Confirm Password</label>
+            <input
+                id="confirm-password"
+                type="password"
+                name="confirm-password"
+                required
+            />
+            <div className="control-error">
+            {passwordsArentEqual && <p>Please, the password must match</p>}
+          </div>
+            </div>
+        </div>
+
+        <hr />
+
+        <div className="control-row">
+            <div className="control">
+            <label htmlFor="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" required />
+            </div>
+
+            <div className="control">
+            <label htmlFor="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" required />
+            </div>
+        </div>
+
+        <div className="control">
+            <label htmlFor="phone">What best describes your role?</label>
+            <select id="role" name="role" required>
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="employee">Employee</option>
+            <option value="founder">Founder</option>
+            <option value="other">Other</option>
+            </select>
+        </div>
+
+        <fieldset>
+            <legend>How did you find us?</legend>
+            <div className="control">
+            <input
+                type="checkbox"
+                id="google"
+                name="acquisition"
+                value="google"
+            />
+            <label htmlFor="google">Google</label>
+            </div>
+
+            <div className="control">
+            <input
+                type="checkbox"
+                id="friend"
+                name="acquisition"
+                value="friend"
+            />
+            <label htmlFor="friend">Referred by friend</label>
+            </div>
+
+            <div className="control">
+            <input type="checkbox" id="other" name="acquisition" value="other" />
+            <label htmlFor="other">Other</label>
+            </div>
+        </fieldset>
+
+        <div className="control">
+            <label htmlFor="terms-and-conditions">
+            <input type="checkbox" id="terms-and-conditions" name="terms" required />I
+            agree to the terms and conditions
+            </label>
+        </div>
+
+        <p className="form-actions">
+            <button type="reset" className="button button-flat">
+            Reset
+            </button>
+            <button type="submit" className="button">
+            Sign up
+            </button>
+        </p>
+        </form>
+    );
+}
