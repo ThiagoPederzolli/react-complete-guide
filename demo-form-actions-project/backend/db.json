@@ -1,0 +1,25 @@
+{
+  "opinions": [
+    {
+      "id": 1767212774758,
+      "votes": 1,
+      "userName": "Thiago",
+      "title": "This course is amazing",
+      "body": "I'm learning a lot about React with this course."
+    },
+    {
+      "id": 1,
+      "userName": "Maximilian Schwarzmüller",
+      "title": "Do yourself a favor and learn React!",
+      "body": "React is an amazing JavaScript library!\n\nDespite all it's shortcomings.",
+      "votes": 0
+    },
+    {
+      "id": 2,
+      "userName": "Maximilian Schwarzmüller",
+      "title": "React has more depth than you might first think!",
+      "body": "React is a great library to learn, but it's not just about the basics. Dive deeper!\nFor example with this course!",
+      "votes": 0
+    }
+  ]
+}

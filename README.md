@@ -279,3 +279,23 @@ A comprehensive guide to handling forms in React, covering multiple approaches t
 - Custom useInput hook: Creating a custom hook to manage input state and validation, encapsulating form input logic for maximum reusability
 - Third-party libraries: Introduction to form libraries (React Hook Form, Formik), understanding when to use external solutions
 - Best practices: Choosing the right approach for different scenarios, balancing complexity with functionality, user experience considerations
+
+## [React Form Actions & Advanced Form Handling]()
+An exploration of React's modern form handling capabilities using Form Actions and related hooks. This module covers the new server-centric form patterns, managing form state with specialized hooks, handling asynchronous operations, and implementing optimistic updates for enhanced user experience.
+
+#### Key topics covered:
+
+- Form Actions introduction: Understanding what Form Actions are, how they differ from traditional form handling, when to use Form Actions
+- Validation with actions: Adding validation checks within Form Actions, handling validation errors, providing user feedback
+- useActionState hook: Managing form-dependent state with useActionState(), handling action results and errors, updating UI based on action outcomes
+- User input handling: Processing and using user input within Form Actions, accessing form data in action functions
+- Action function organization: Moving action functions outside components for better code structure, separating concerns and improving maintainability
+- Demo application: Building a practical demo app to demonstrate Form Action patterns, applying concepts in a real-world scenario
+- Form submission handling: Managing form submissions with actions, preventing default behavior, coordinating client and server logic
+- Asynchronous actions: Working with async Form Actions, handling promises and async operations, managing loading states during async work
+- useFormStatus hook: Updating UI based on form submission status with useFormStatus(), showing pending states, disabling inputs during submission
+- Multiple form actions: Registering and managing multiple actions within a single form, handling different submit buttons with different actions
+- HTTP requests in actions: Sending HTTP requests directly from Form Actions, integrating with backend APIs, handling response data
+- Pending state management: Using the pending state from useActionState(), providing visual feedback during form processing
+- Optimistic updates: Implementing optimistic UI updates with Form Actions, updating UI immediately before server confirmation, handling rollback scenarios
+- Best practices: Choosing between traditional handlers and Form Actions, progressive enhancement, error handling strategies, user experience optimization
