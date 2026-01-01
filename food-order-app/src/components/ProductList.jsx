@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import ProductCard from "./ProductCard";
 
 function ProductList() {
     const [productList, setProductList] = useState([]);
@@ -21,18 +22,18 @@ function ProductList() {
         fetchProductList();
 
     }, []);
-    console.log('error', error);
+    console.log('productList', productList);
 
     return (
         <>
         {error && <p>Failed to fetch product list...</p>}
         {isLoading && <p>Fetching product list...</p>}
             {!isLoading && !!productList.length && (
-                <ul>
+                <div id="meals">
                     {productList.map((product) => (
-                        <li key={product.name}>{product.name}</li>
+                        <ProductCard key={product.id} product={product} />
                     ))}
-                </ul>
+                </div>
             )}
         </>
     )
