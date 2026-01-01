@@ -1,4 +1,4 @@
-import { formatPrice } from "../util/priceFormater";
+import { formatPrice } from "../util/priceFormatter";
 
 function ProductCard({ product }) {
     const formattedPrice = formatPrice(product.price);
