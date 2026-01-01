@@ -5,6 +5,7 @@ export const ShoppingCartContext = createContext({
   cartItems: [],
   addItemToCart: () => {},
   updateItemQuantity: () => {},
+  submitOrder: () => {}
 });
 
 function shoppingCartReducer(state, action) {
@@ -58,6 +59,13 @@ function shoppingCartReducer(state, action) {
         cartItems: updatedItems,
       };
     }
+
+    if (action.type === "CLEAR_CART") {
+      console.log()
+      return {
+        cartItems: action.payload
+      }
+    }
     return state;
   }
 
@@ -106,6 +114,30 @@ export default function ShoppingCartProvider({ children }) {
       },
     })
   }
+
+  function handleClearCart() {
+    shoppingCartDispatch({
+      type: 'CLEAR_CART',
+      payload: []
+    });
+  }
+
+    async function submitOrder(userInformation) {
+    const response = await fetch('http://localhost:3000/orders', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(userInformation),
+    });
+
+    if (!response.ok) {
+      return;
+    }
+
+    
+  }
+  console.log('cartItems', shoppingCartState.cartItems)
   return (
     <ShoppingCartContext.Provider
       value={{ 
@@ -113,8 +145,10 @@ export default function ShoppingCartProvider({ children }) {
         cartItems: shoppingCartState.cartItems,
         addItemToCart: handleAddItemToCart,
         updateItemQuantity: handleUpdateCartItemQuantity,
+        submitOrder,
         isLoading,
         error,
+        handleClearCart,
       }}
     >
       {children}
