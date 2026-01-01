@@ -8,7 +8,7 @@ function ProductList() {
     useEffect(() => {
         async function fetchProductList() {
             setIsloading(true);
-            const response = await fetch('http://localhost:3000/mealss');
+            const response = await fetch('http://localhost:3000/meals');
             const resData = await response.json();
             if (!response.ok) {
                 setError('Failed to fetch products')
