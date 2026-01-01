@@ -1,6 +1,9 @@
+import { useContext } from "react";
 import { formatPrice } from "../util/priceFormatter";
+import { ShoppingCartContext } from "../store/cart-context";
 
 function ProductCard({ product }) {
+    const { addItemToCart } = useContext(ShoppingCartContext);
     const formattedPrice = formatPrice(product.price);
     return (
         <div className="meal-item">
@@ -15,7 +18,7 @@ function ProductCard({ product }) {
                 </p>
                 <p className="meal-item-description">{product.description}</p>
                 <p>
-                    <button className="meal-item-actions button">
+                    <button className="meal-item-actions button" onClick={() => addItemToCart(product.id)}>
                     Add to Cart
                 </button>
                 </p>
