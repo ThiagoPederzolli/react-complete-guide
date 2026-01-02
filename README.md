@@ -353,3 +353,31 @@ A complete, production-ready food ordering application built entirely from scrat
 - Professional development workflow (task planning, PR descriptions, incremental delivery)
 
 This project demonstrates the ability to not only write code, but to think through architecture, plan features systematically, manage development workflow professionally, and deliver a polished user experience from start to finish.
+
+## [Redux & Redux Toolkit]()
+A comprehensive introduction to Redux for state management in React applications. This module covers Redux fundamentals, core concepts, and modern Redux Toolkit patterns for managing complex application state. Learn when to use Redux over Context API, how Redux works internally, and how to integrate Redux with React components efficiently.
+
+#### Key topics covered:
+
+- State management review: Analyzing different state management approaches in React apps, understanding when local state isn't enough
+- Redux vs Context API: Comparing Redux with React Context, understanding the trade-offs, when to choose Redux for state management
+- Redux fundamentals: How Redux works under the hood, understanding the core Redux flow (store, actions, reducers), one-way data flow
+- Core Redux concepts: Exploring fundamental Redux concepts in depth, working with store, actions, and reducers, understanding immutability
+- Redux basics: Additional foundational Redux patterns, setting up the Redux architecture, organizing Redux code
+- Project setup: Preparing a new React project for Redux integration, installing necessary dependencies
+- Creating Redux store: Setting up a Redux store for React applications, configuring the store with reducers
+- Provider setup: Providing the Redux store to React components, wrapping the app with Provider component
+- Accessing Redux state: Using Redux data in React components with useSelector hook, subscribing to store updates
+- Dispatching actions: Dispatching actions from components using useDispatch hook, triggering state updates from UI
+- Class-based components: Using Redux with class-based components, connect() HOC, mapStateToProps and mapDispatchToProps
+- Action payloads: Attaching data to actions, passing dynamic values to reducers, updating state based on payload data
+- Multiple state properties: Managing complex state with multiple properties, organizing state structure, handling related data
+- State immutability: Working with Redux state correctly, avoiding state mutations, using immutable update patterns
+- Redux challenges: Identifying common Redux problems (boilerplate, immutability complexity), introducing Redux Toolkit as a solution
+- Redux Toolkit slices: Creating state slices with createSlice, simplifying reducer logic with built-in immutability
+- Connecting Toolkit state: Using Redux Toolkit state in components, accessing slice state with useSelector
+- Migration to Toolkit: Converting vanilla Redux to Redux Toolkit, refactoring reducers and actions, simplifying existing code
+- Multiple slices: Working with multiple state slices, combining slices in the store, managing different features separately
+- Slice integration: Reading and dispatching from multiple slices, coordinating between different parts of the state
+- Code organization: Splitting Redux code into separate files, organizing slices and store configuration, maintaining clean architecture
+- Best practices: Structuring Redux applications, choosing between Redux and alternatives, optimizing performance, avoiding common pitfalls
