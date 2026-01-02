@@ -11,7 +11,7 @@ This course covers React.js comprehensively, from fundamentals to advanced topic
 - Routing, authentication, form handling, and HTTP requests
 - Professional practices: TypeScript, testing, styling, deployment
 
-## [00-starting-js-proj]()
+## [00-starting-js-proj](https://github.com/ThiagoPederzolli/react-complete-guide/tree/main/00-starting-js-proj)
 A comprehensive JavaScript fundamentals review covering modern ES6+ syntax and concepts essential for React development. This module focuses on understanding how React projects differ from vanilla JavaScript and the build process involved.
 
 #### Key topics covered:
@@ -24,7 +24,7 @@ A comprehensive JavaScript fundamentals review covering modern ES6+ syntax and c
 - DOM manipulation concepts (and why React handles it differently)
 - Control structures and operators
 
-## [01-starting-project]()
+## [01-starting-project](https://github.com/ThiagoPederzolli/react-complete-guide/tree/main/01-starting-project)
 An in-depth exploration of React's core concepts, building a solid foundation in component-based architecture, state management, and dynamic UI rendering. This module covers everything from creating basic components to handling events and managing application state.
 
 #### Key topics covered:
@@ -37,7 +37,7 @@ An in-depth exploration of React's core concepts, building a solid foundation in
 - Best practices: Project structure, file organization, component splitting strategies
 - Advanced patterns: Fragments, forwarding props, multiple JSX slots, dynamic component types, default prop values
 
-## [Tic-Tac-Toe Game]()
+## [Tic-Tac-Toe Game](https://github.com/ThiagoPederzolli/react-complete-guide/tree/main/07-tic-tac-toe-starting-project)
 A fully functional two-player Tic-Tac-Toe game built with React, focusing on advanced state management patterns and component composition. The game features player name customization, turn-based gameplay, win/draw detection, and a complete game-over screen with restart functionality.
 #### Key topics covered:
 - State management patterns: Lifting state up, deriving computed values, avoiding unnecessary state
@@ -48,7 +48,7 @@ A fully functional two-player Tic-Tac-Toe game built with React, focusing on adv
 - State derivation: Computing values from other computed values, reducing state complexity
 - Best practices: Updating state based on previous state, avoiding intersecting states, data organization in separate files
 
-## [Investment Calculator]()
+## [Investment Calculator](https://github.com/ThiagoPederzolli/react-complete-guide/tree/main/investiment-calculator)
 A financial calculator application that computes investment returns over time based on user inputs. Built independently to reinforce React fundamentals, featuring dynamic calculations, real-time updates, and a clean user interface for financial planning.
 
 #### Key topics covered:
@@ -61,7 +61,7 @@ A financial calculator application that computes investment returns over time ba
 - Component patterns: Dynamic component types, default prop values, component splitting strategies
 - Best practices: Separating data logic, avoiding redundant state, efficient state derivation
 
-## [CSS Module Project]()
+## [CSS Module Project](https://github.com/ThiagoPederzolli/react-complete-guide/tree/main/css-module-project)
 A comprehensive exploration of different styling approaches in React, from vanilla CSS to modern CSS-in-JS solutions and utility-first frameworks. This project demonstrates the implementation of the same application using multiple styling methodologies, comparing their strengths, limitations, and use cases.
 
 #### Key topics covered:
@@ -76,7 +76,7 @@ A comprehensive exploration of different styling approaches in React, from vanil
 - Component architecture: Creating reusable styled components, component combinations, maintaining flexibility
 - Comparison & best practices: Evaluating pros and cons of each approach, choosing the right styling solution
 
-## [Debugging Investment Calculator]()
+## [Debugging Investment Calculator](https://github.com/ThiagoPederzolli/react-complete-guide/tree/main/debugging-investment-calculator)
 ### React Debugging & Developer Tools
 A focused project on mastering debugging techniques and tools essential for React development. This module emphasizes identifying, diagnosing, and resolving common React errors through systematic debugging approaches and professional developer tools.
 
@@ -89,7 +89,7 @@ A focused project on mastering debugging techniques and tools essential for Reac
 - Debugging strategies: Systematic error identification, isolating problems, testing solutions
 - Best practices: Preventing common errors, writing debuggable code, using development tools effectively
 
-## [Refs and Portals Project]()
+## [Refs and Portals Project](https://github.com/ThiagoPederzolli/react-complete-guide/tree/main/refs-and-portals)
 A deep dive into React's advanced DOM manipulation and component communication patterns through Refs and Portals. This project explores when and how to access DOM elements directly, manage non-state values, and render components outside the normal DOM hierarchy for better UI architecture.
 
 #### Key topics covered:
@@ -105,7 +105,7 @@ A deep dive into React's advanced DOM manipulation and component communication p
 - Portals introduction: Rendering components outside the DOM hierarchy, semantic HTML improvements, overlay patterns
 - Best practices: Choosing between refs and state, component API design, accessibility considerations
 
-## [Project Management]()
+## [Project Management](https://github.com/ThiagoPederzolli/react-complete-guide/tree/main/project-management)
 A complete React project management application demonstrating state management, component architecture, and advanced React patterns. This project builds a full-featured app for creating, viewing, and managing projects with associated tasks, emphasizing component reusability and clean code organization.
 
 #### Key topics covered:
@@ -126,7 +126,7 @@ A complete React project management application demonstrating state management, 
 - Task operations: Clearing individual tasks, fixing edge cases and minor bugs in task management
 - Component communication: Coordinating between sibling components, lifting state up, managing complex component interactions
 
-## [Advanced State Management]()
+## [Advanced State Management](https://github.com/ThiagoPederzolli/react-complete-guide/tree/main/advanced-state-management)
 An in-depth exploration of React's Context API and useReducer hook for managing complex state and avoiding prop drilling. This module demonstrates how to refactor applications to use global state management patterns, making data accessible across component trees without passing props through every level.
 
 #### Key topics covered:
@@ -147,7 +147,7 @@ An in-depth exploration of React's Context API and useReducer hook for managing 
 - State management patterns: Comparing useState vs useReducer, choosing the right state management approach for different scenarios
 - Best practices: Organizing context providers, structuring reducer logic, combining Context API with useReducer for robust state management
 
-## [Side Effects & useEffect Hook]()
+## [Side Effects & useEffect Hook](https://github.com/ThiagoPederzolli/react-complete-guide/tree/main/side-effects)
 A comprehensive exploration of side effects in React and the useEffect hook for managing them. This module covers when and how to handle side effects properly, understanding effect dependencies, cleanup patterns, and optimization techniques to prevent common pitfalls like infinite loops and unnecessary re-renders.
 
 #### Key topics covered:
@@ -166,7 +166,8 @@ A comprehensive exploration of side effects in React and the useEffect hook for 
 - useCallback hook: Memoizing functions with useCallback, preventing unnecessary effect re-runs caused by function recreations
 - State update optimization: Optimizing state updates within effects, using functional updates to avoid dependency issues
 - Best practices: Choosing between useEffect and event handlers, managing complex dependencies, writing efficient and maintainable effects
-## [Quiz Application Project]()
+
+## [Quiz Application Project](https://github.com/ThiagoPederzolli/react-complete-guide/tree/main/quiz-project)
 A complete quiz application built with React, demonstrating advanced state management, timer implementation, and component architecture patterns. This project showcases practical application of useEffect, useCallback, and component composition while building a fully-featured quiz with timed questions, answer validation, and result tracking.
 
 #### Key topics covered:
@@ -187,7 +188,7 @@ A complete quiz application built with React, demonstrating advanced state manag
 - Component architecture: Organizing quiz logic across multiple components, managing parent-child communication effectively
 - Performance optimization: Preventing unnecessary re-renders, optimizing effect execution with proper dependencies
 
-## [React Performance Optimization & Behind The Scenes]()
+## [React Performance Optimization & Behind The Scenes](https://github.com/ThiagoPederzolli/react-complete-guide/tree/main/behind-the-scenes)
 A deep dive into React's internal workings and performance optimization techniques. This module explores how React builds and manages the component tree, when components re-render, and various strategies to optimize application performance through memoization, proper component structure, and understanding React's rendering mechanism.
 
 #### Key topics covered:
@@ -207,7 +208,7 @@ A deep dive into React's internal workings and performance optimization techniqu
 - Advanced optimization: Introduction to MillionJS for React optimization, exploring third-party performance enhancement tools
 - Best practices: When to optimize and when not to, balancing code complexity with performance gains, measuring before optimizing
 
-## [Class-based Components]()
+## [Class-based Components](https://github.com/ThiagoPederzolli/react-complete-guide/tree/main/class-components-project)
 An exploration of React's class-based component syntax and lifecycle methods. This module covers the traditional approach to building React components before hooks were introduced, understanding component lifecycle, and learning about error boundaries - a feature still exclusive to class components.
 
 #### Key topics covered:
@@ -223,7 +224,7 @@ An exploration of React's class-based component syntax and lifecycle methods. Th
 - Error handling: Creating error boundary components to gracefully handle errors, displaying fallback UI when errors occur, understanding error boundary limitations
 - Modern React context: Understanding that class components are legacy but still supported, recognizing that functional components with hooks are the modern standard
 
-## [HTTP Requests & Data Fetching]()
+## [HTTP Requests & Data Fetching](https://github.com/ThiagoPederzolli/react-complete-guide/tree/main/http-requests)
 A comprehensive guide to connecting React applications with backend APIs and databases. This module covers best practices for fetching and sending data, handling asynchronous operations, managing loading and error states, and implementing optimistic UI updates for better user experience.
 
 #### Key topics covered:
@@ -244,7 +245,7 @@ A comprehensive guide to connecting React applications with backend APIs and dat
 - Practice exercises: Hands-on practice with data fetching patterns, reinforcing learned concepts through application
 - Best practices: Proper error boundaries, loading state management, request cancellation, avoiding race conditions
 
-## [Custom React Hooks]()
+## [Custom React Hooks](https://github.com/ThiagoPederzolli/react-complete-guide/tree/main/custom-hooks)
 A focused exploration of creating custom React hooks to extract and reuse component logic. This module teaches how to build flexible, reusable hooks that encapsulate stateful logic, side effects, and complex functionality that can be shared across multiple components, following React's rules of hooks.
 
 #### Key topics covered:
@@ -258,7 +259,7 @@ A focused exploration of creating custom React hooks to extract and reuse compon
 - Flexible hook design: Creating configurable custom hooks that accept parameters, building hooks that adapt to different use cases and requirements
 - Best practices: Designing intuitive hook APIs, choosing what to expose and what to keep internal, making hooks truly reusable and maintainable
 
-## [Working with Forms & User Input]()
+## [Working with Forms & User Input](https://github.com/ThiagoPederzolli/react-complete-guide/tree/main/forms-project)
 A comprehensive guide to handling forms in React, covering multiple approaches to collecting and validating user input. This module explores different strategies for form management, from basic state handling to custom hooks and third-party libraries, with emphasis on validation patterns and creating reusable form components.
 
 #### Key topics covered:
@@ -280,7 +281,7 @@ A comprehensive guide to handling forms in React, covering multiple approaches t
 - Third-party libraries: Introduction to form libraries (React Hook Form, Formik), understanding when to use external solutions
 - Best practices: Choosing the right approach for different scenarios, balancing complexity with functionality, user experience considerations
 
-## [React Form Actions & Advanced Form Handling]()
+## [React Form Actions](https://github.com/ThiagoPederzolli/react-complete-guide/tree/main/form-actions-project) & [Advanced Form Handling](https://github.com/ThiagoPederzolli/react-complete-guide/tree/main/demo-form-actions-project)
 An exploration of React's modern form handling capabilities using Form Actions and related hooks. This module covers the new server-centric form patterns, managing form state with specialized hooks, handling asynchronous operations, and implementing optimistic updates for enhanced user experience.
 
 #### Key topics covered:
@@ -299,3 +300,56 @@ An exploration of React's modern form handling capabilities using Form Actions a
 - Pending state management: Using the pending state from useActionState(), providing visual feedback during form processing
 - Optimistic updates: Implementing optimistic UI updates with Form Actions, updating UI immediately before server confirmation, handling rollback scenarios
 - Best practices: Choosing between traditional handlers and Form Actions, progressive enhancement, error handling strategies, user experience optimization
+
+## [Food Order Application](https://github.com/ThiagoPederzolli/react-complete-guide/tree/main/food-order-app)
+
+A complete, production-ready food ordering application built entirely from scratch, demonstrating end-to-end React development from initial planning through implementation. This project showcases not just coding skills, but the full software development lifecycle including task breakdown, project management, and PR-based workflow.
+
+**Project Planning & Execution:**
+- Complete solo development with self-directed task breakdown and prioritization
+- [Created detailed user stories from Product Owner perspective](https://www.notion.so/PO-Perspective-2dca862b193b800b8c4ad2b366a8afb6?source=copy_link)
+- [Defined technical acceptance criteria from Tech Lead perspective](https://www.notion.so/TL-perspective-2dca862b193b80a78198f2b52d1f9ce2?source=copy_link)
+- [Implemented kanban-style project board to track progress](https://www.notion.so/2dba862b193b800c8820fe70ca96e3fe?v=2dba862b193b8009b671000cca3ac6fa&source=copy_link)
+- [Followed professional PR workflow with comprehensive descriptions for each feature](https://github.com/ThiagoPederzolli/react-complete-guide/pulls?q=is%3Apr+is%3Aclosed)
+- Demonstrated ability to plan, structure, and execute a complex frontend application independently
+
+#### Key Features Implemented:
+
+- **Product Browsing**: Dynamic product list with API integration, loading states, error handling, and responsive card-based layout
+- **Shopping Cart**: Full cart management with add/remove items, quantity adjustments, real-time total calculation, and persistent state via Context API
+- **Checkout Flow**: Multi-step process from cart review to checkout form to order confirmation with proper modal chaining
+- **Form Handling**: Modern React patterns using useActionState hook, comprehensive validation (email, postal code, required fields), user-friendly error messages
+- **Order Submission**: Backend integration with POST requests, loading states during submission, success/error handling, cart clearing after successful orders
+- **State Management**: Context API with useReducer for predictable state updates, proper separation of concerns, elimination of prop drilling
+
+#### Technical Implementation:
+
+- **Architecture**: Clean separation between API layer, business logic (Context), and UI components; centralized data fetching and validation utilities
+- **Modern React Patterns**: useActionState for form handling, useReducer for complex state, useImperativeHandle for modal control, React Portals for proper modal rendering
+- **Form Actions**: Server-centric form pattern with validation, async submission handling, success/error state management, form reset strategies using key prop
+- **Error Handling**: Comprehensive error handling at API, validation, and UI levels; graceful degradation for network failures; user-friendly error messages
+- **User Experience**: Loading indicators during async operations, disabled states during submissions, form value preservation on validation errors, success confirmation screens, modal flow optimization
+- **Component Design**: Reusable, composable components with clear responsibilities; stateless components where appropriate; proper use of refs for imperative operations
+
+#### Development Process Highlights:
+
+- **Task Breakdown**: Decomposed complex application into manageable features (Product List → Product Card → Cart → Checkout → Success)
+- **Incremental Development**: Built features progressively with clear acceptance criteria for each step
+- **Documentation**: Created detailed PR descriptions explaining changes, technical decisions, and user flows
+- **Best Practices**: Followed React conventions, maintained clean code structure, implemented proper validation, ensured accessibility considerations
+- **Problem Solving**: Addressed challenges like form state reset, modal chaining, cart synchronization, and optimistic UI updates
+
+#### Key Topics Demonstrated:
+
+- Form Actions with useActionState hook for modern form handling
+- Context API for global state management without prop drilling
+- useReducer for predictable complex state updates
+- Async operations with proper loading and error states
+- Form validation strategies (client-side with action functions)
+- Modal management with React Portals and imperative control
+- Component composition and reusability patterns
+- API integration with centralized request handling
+- User experience optimization (loading states, error handling, success feedback)
+- Professional development workflow (task planning, PR descriptions, incremental delivery)
+
+This project demonstrates the ability to not only write code, but to think through architecture, plan features systematically, manage development workflow professionally, and deliver a polished user experience from start to finish.
