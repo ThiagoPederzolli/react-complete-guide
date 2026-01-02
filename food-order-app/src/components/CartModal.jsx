@@ -3,7 +3,7 @@ import { createPortal } from 'react-dom';
 import Cart from './Cart';
 
 const CartModal = forwardRef(function Modal(
-  { title },
+  { title, onGoToCheckout },
   ref
 ) {
   const dialog = useRef();
@@ -12,6 +12,9 @@ const CartModal = forwardRef(function Modal(
     return {
       open: () => {
         dialog.current.showModal();
+      },
+      close: () => {
+        dialog.current.close();
       },
     };
   });
@@ -23,7 +26,7 @@ const CartModal = forwardRef(function Modal(
       <form method="dialog" className="modal-actions">
         <>
         <button className="text-button">Close</button>
-        <button className="button">Go to Checkout</button>
+        <button onClick={onGoToCheckout} className="button">Go to Checkout</button>
       </>
       </form>
     </dialog>,
