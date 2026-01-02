@@ -12,6 +12,11 @@ function Header() {
     const cartQuantity = cartItems.length;
 
     function handleOpenCartClick() {
+        cartModal.current.open();
+    }
+
+    function handleProceedToCheckoutClick() {
+        cartModal.current.close();
         checkoutModal.current.open();
     }
     return (
@@ -19,6 +24,7 @@ function Header() {
         <CartModal
             ref={cartModal}
             title="Your Cart"
+            onGoToCheckout={handleProceedToCheckoutClick}
         />
         <CheckoutModal
             ref={checkoutModal}
