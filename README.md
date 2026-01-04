@@ -381,3 +381,23 @@ A comprehensive introduction to Redux for state management in React applications
 - Slice integration: Reading and dispatching from multiple slices, coordinating between different parts of the state
 - Code organization: Splitting Redux code into separate files, organizing slices and store configuration, maintaining clean architecture
 - Best practices: Structuring Redux applications, choosing between Redux and alternatives, optimizing performance, avoiding common pitfalls
+
+## [Advanced Redux: Side Effects & Async Operations]()
+An advanced exploration of handling asynchronous operations and side effects in Redux applications. This module covers where to place async logic, integrating Redux with backend services, managing HTTP requests, and using Redux middleware patterns like thunks for complex async workflows while maintaining clean and maintainable code architecture.
+
+#### Key topics covered:
+
+- Redux and side effects: Understanding the relationship between Redux and side effects, why Redux reducers must be pure, handling asynchronous code challenges
+- Redux refresher practice: Comprehensive hands-on practice building Redux applications, reinforcing core concepts through practical implementation (parts 1 & 2)
+- Firebase backend integration: Setting up Firebase as a backend service, connecting Redux applications to real databases and APIs
+- Redux async patterns: Understanding different approaches to handling async code with Redux, deciding where async logic should live
+- Frontend vs backend logic: Separating concerns between client and server code, understanding what logic belongs where, API design considerations
+- Logic placement strategies: Deciding where to put business logic (components, action creators, reducers), evaluating trade-offs of different approaches
+- useEffect with Redux: Combining useEffect hook with Redux for side effects, syncing Redux state with external systems, managing component lifecycle with Redux
+- useEffect problems: Identifying issues with using useEffect for Redux side effects, understanding timing and dependency problems
+- HTTP state management: Handling loading, error, and success states for HTTP requests in Redux, providing user feedback during async operations
+- Action creator thunks: Using thunk middleware for async action creators, returning functions instead of action objects, handling async logic in action creators
+- Data fetching patterns: Getting started with fetching data in Redux applications, structuring fetch operations, managing request lifecycle
+- Finalizing fetch logic: Completing data fetching implementation, error handling, optimizing fetch patterns, managing cache and updates
+- Redux DevTools: Exploring Redux DevTools for debugging, time-travel debugging, inspecting actions and state changes, performance monitoring
+- Best practices: Choosing between different async patterns, organizing async code, handling race conditions, error boundaries for async operations
