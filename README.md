@@ -443,3 +443,24 @@ A comprehensive guide to building multi-page single-page applications using Reac
 - useFetcher hook: Working with useFetcher for background data operations, submitting without navigation, loading data independently
 - Deferred data loading: Deferring data fetching with defer(), streaming data to components, improving perceived performance
 - Controlling deferred data: Choosing which data to defer and which to await, optimizing critical vs non-critical data loading
+
+## [Authentication in React Apps]()
+A complete guide to implementing authentication in React applications using React Router. This module covers authentication fundamentals, token-based auth flows, protecting routes, managing user sessions, and handling token expiration for secure and user-friendly authentication systems.
+
+#### Key topics covered:
+
+- Authentication fundamentals: Understanding how authentication works in single-page applications, client-server auth flow, token-based authentication
+- Project and route setup: Setting up a new project for authentication, configuring routes for auth pages (login, signup)
+- Query parameters: Working with query parameters for auth flows, switching between login and signup modes, managing URL state
+- Auth action implementation: Implementing authentication action functions, handling login and signup requests, communicating with backend auth APIs
+- Input validation: Validating user credentials, outputting validation errors from the server, displaying error messages to users
+- User login: Adding login functionality, processing login credentials, storing authentication tokens
+- Token attachment: Attaching auth tokens to outgoing HTTP requests, securing API calls, including authorization headers
+- User logout: Implementing logout functionality, clearing auth tokens, resetting authentication state
+- UI based on auth status: Updating navigation and UI elements based on authentication status, showing/hiding content for authenticated users
+- Loader requirements: Understanding that loaders must return values (null or data), proper loader return patterns
+- Route protection: Adding route guards to protect authenticated routes, redirecting unauthenticated users, securing sensitive pages
+- Automatic logout: Implementing automatic logout on token expiration, handling expired sessions gracefully
+- Token expiration management: Managing token expiration timestamps, calculating remaining session time, refreshing tokens when needed
+- Best practices: Secure token storage, handling auth errors, user experience during auth flows, session management strategies
+```
