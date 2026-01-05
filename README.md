@@ -401,3 +401,45 @@ An advanced exploration of handling asynchronous operations and side effects in 
 - Finalizing fetch logic: Completing data fetching implementation, error handling, optimizing fetch patterns, managing cache and updates
 - Redux DevTools: Exploring Redux DevTools for debugging, time-travel debugging, inspecting actions and state changes, performance monitoring
 - Best practices: Choosing between different async patterns, organizing async code, handling race conditions, error boundaries for async operations
+
+## [React Router & Single-Page Applications]()
+A comprehensive guide to building multi-page single-page applications using React Router. This module covers routing fundamentals, navigation patterns, data fetching strategies with loaders and actions, error handling, and advanced features like deferred data loading for building performant and user-friendly React applications with multiple views.
+
+#### Key topics covered:
+
+- Routing fundamentals: Understanding routing in single-page applications, how multiple pages work without full page reloads
+- Project setup: Installing and configuring React Router, setting up the router in a React application
+- Defining routes: Creating route definitions, mapping URLs to components, configuring the router
+- Multiple routes: Adding and managing multiple routes, building route hierarchies, organizing application structure
+- Alternative route definitions: Exploring different ways to define routes (JSX vs object notation), choosing the right approach
+- Navigation with Links: Using Link components for client-side navigation, preventing full page reloads, maintaining SPA behavior
+- Layouts and nested routes: Creating layout components, implementing nested routing patterns, sharing UI across multiple routes
+- Error handling: Showing error pages with errorElement, handling 404s and route errors, creating custom error boundaries
+- NavLink components: Working with NavLink for active link styling, implementing navigation menus, showing current route visually
+- Programmatic navigation: Navigating with useNavigate hook, redirecting users programmatically, handling navigation in event handlers
+- Dynamic routes: Defining routes with parameters, accessing URL parameters, building flexible route patterns
+- Dynamic links: Creating links to dynamic routes, passing parameters in URLs, building navigation for dynamic content
+- Relative vs absolute paths: Understanding path resolution, using relative and absolute paths correctly, avoiding routing bugs
+- Index routes: Working with index routes for default child routes, organizing nested route structures
+- Practice project: Hands-on practice building a complete routing solution, applying learned concepts in a real project
+- Loader functions: Data fetching with loader() functions, loading data before route components render, preventing loading states in components
+- Using loader data: Accessing loader data in components with useLoaderData hook, consuming fetched data
+- Advanced loader patterns: Additional loader data usage patterns, organizing loader code, where to store loader functions
+- Loader execution timing: Understanding when and how loader functions are executed, lifecycle of data loading
+- Navigation state: Reflecting current navigation state in UI, showing loading indicators during navigation, using useNavigation hook
+- Loader responses: Returning proper responses from loaders, handling different response types, working with response objects
+- Loader code guidelines: Understanding what code belongs in loaders vs components, separation of concerns
+- Custom error handling: Creating custom error pages, throwing custom errors from loaders, providing user-friendly error messages
+- Error data extraction: Extracting error data with useRouteError, throwing Response objects, structured error handling
+- json() utility: Using the json() utility function for cleaner response handling, simplifying data returns
+- Dynamic route loaders: Combining dynamic routes with loader functions, loading data based on URL parameters
+- useRouteLoaderData hook: Accessing loader data from parent routes, sharing data across route hierarchies
+- Data submission planning: Planning form submission strategies, designing data flow for mutations
+- Action functions: Working with action() functions for form submissions, handling POST/PUT/DELETE requests, processing form data
+- Programmatic submissions: Submitting data with useSubmit hook, triggering submissions from code, handling complex submission flows
+- Submission status: Updating UI based on submission status with useNavigation, showing pending states, providing feedback
+- Input validation: Validating user input in actions, outputting validation errors, returning error responses to forms
+- Request methods: Reusing actions for different HTTP methods, handling multiple operations in single action, checking request methods
+- useFetcher hook: Working with useFetcher for background data operations, submitting without navigation, loading data independently
+- Deferred data loading: Deferring data fetching with defer(), streaming data to components, improving perceived performance
+- Controlling deferred data: Choosing which data to defer and which to await, optimizing critical vs non-critical data loading
