@@ -463,4 +463,17 @@ A complete guide to implementing authentication in React applications using Reac
 - Automatic logout: Implementing automatic logout on token expiration, handling expired sessions gracefully
 - Token expiration management: Managing token expiration timestamps, calculating remaining session time, refreshing tokens when needed
 - Best practices: Secure token storage, handling auth errors, user experience during auth flows, session management strategies
-```
+
+## [Deploying React Applications]()
+A practical guide to deploying React applications to production. This module covers optimization techniques like lazy loading, building for production, deployment processes, and essential server configuration for single-page applications to ensure your React apps run efficiently in production environments.
+
+#### Key topics covered:
+
+- Deployment overview: Understanding the steps required to deploy a React application, preparing apps for production environments
+- Lazy loading fundamentals: Understanding lazy loading and code splitting, why lazy loading improves performance, when to use lazy loading
+- Implementing lazy loading: Adding lazy loading to React components with React.lazy() and Suspense, splitting code into smaller chunks, optimizing bundle size
+- Production builds: Building React code for production with optimization, minification and bundling processes, generating production-ready files
+- Deployment walkthrough: Step-by-step deployment example, deploying to a hosting platform, configuring deployment settings
+- Server-side routing: Understanding server-side routing requirements for SPAs, configuring servers to handle client-side routes, preventing 404 errors on page refresh
+- Server configuration: Required server configurations for React Router, setting up URL rewriting and fallback routes, ensuring all routes serve the index.html
+- Best practices: Optimizing bundle sizes, monitoring performance, choosing deployment platforms, configuring build processes for production
