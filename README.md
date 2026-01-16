@@ -477,3 +477,28 @@ A practical guide to deploying React applications to production. This module cov
 - Server-side routing: Understanding server-side routing requirements for SPAs, configuring servers to handle client-side routes, preventing 404 errors on page refresh
 - Server configuration: Required server configurations for React Router, setting up URL rewriting and fallback routes, ensuring all routes serve the index.html
 - Best practices: Optimizing bundle sizes, monitoring performance, choosing deployment platforms, configuring build processes for production
+
+## [React Query (Tanstack Query)]()
+A comprehensive exploration of React Query (Tanstack Query) for efficient data fetching and state management. This module covers query and mutation patterns, cache management, optimistic updates, and integration with React Router for building performant applications with minimal boilerplate and excellent user experience.
+
+#### Key topics covered:
+
+- Project setup: Setting up the demo project, overview of the application structure and requirements
+- React Query introduction: Understanding what React Query is, why it's beneficial over manual data fetching, solving common data fetching challenges
+- Installation and basics: Installing Tanstack Query, using useQuery hook, seeing immediate benefits of automatic caching and background refetching
+- Cache and stale data: Understanding and configuring query behaviors, managing cache lifetime, controlling when data is considered stale
+- Dynamic queries: Creating dynamic query functions with parameters, using query keys for identification and cache management
+- Query configuration: Working with the query configuration object, aborting requests for cleanup, controlling query behavior
+- Conditional queries: Enabling and disabling queries based on conditions, preventing unnecessary requests, controlling query execution
+- Mutations: Changing data with useMutation hook, handling POST/PUT/DELETE operations, managing mutation state
+- Mutation testing: Fetching more data to test mutations, verifying data changes, working with mutation results
+- Invalidation: Acting on mutation success, invalidating queries to trigger refetches, keeping UI in sync with server state
+- Hands-on challenge: Practice problem and solution for applying React Query concepts, reinforcing learning through implementation
+- Refetch control: Disabling automatic refetching after invalidations, fine-tuning refetch behavior, optimizing network requests
+- Advanced mutations: Enhancing the demo app with more mutations, repeating and reinforcing mutation concepts
+- React Query advantages: Seeing React Query benefits in action, comparing with traditional approaches, understanding performance improvements
+- Data updates: Updating existing data with mutations, handling edit operations, managing update flows
+- Optimistic updates: Implementing optimistic UI updates, updating cache before server confirmation, rolling back on errors
+- Query keys as input: Using query keys as query function parameters, simplifying dynamic queries, leveraging query key structure
+- React Router integration: Combining React Query with React Router, using queries in loaders, prefetching data for routes, building seamless navigation experiences
+- Best practices: Structuring queries and mutations, cache management strategies, error handling patterns, performance optimization
