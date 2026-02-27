@@ -502,3 +502,107 @@ A comprehensive exploration of React Query (Tanstack Query) for efficient data f
 - Query keys as input: Using query keys as query function parameters, simplifying dynamic queries, leveraging query key structure
 - React Router integration: Combining React Query with React Router, using queries in loaders, prefetching data for routes, building seamless navigation experiences
 - Best practices: Structuring queries and mutations, cache management strategies, error handling patterns, performance optimization
+
+## [Next.js - App Router & Pages Router]()
+A complete guide to building full-stack React applications with Next.js, covering both the modern App Router and legacy Pages Router. This module explores file-based routing, React Server Components, data fetching strategies, Server Actions, image optimization, caching, and deployment for building production-ready Next.js applications.
+
+#### Key topics covered:
+
+**App Router (Modern Next.js):**
+- Project setup: Creating a Next.js project, understanding the project structure and configuration
+- File-based routing: Understanding file-based routing system, how the filesystem maps to routes, React Server Components introduction
+- Adding routes: Creating routes via the filesystem, organizing pages and route segments
+- Navigation: Navigating between pages with Link component, programmatic navigation in Next.js
+- Pages and layouts: Working with page and layout components, understanding the layout hierarchy
+- Reserved filenames: Using reserved file names (page.js, layout.js, loading.js, error.js, not-found.js), organizing Next.js projects with custom components
+- Dynamic routes: Configuring dynamic routes with brackets, using route parameters, accessing URL parameters
+- Main project setup: Building the Foodies App, hands-on exercises and solutions
+- Layout concepts: Revisiting and deepening layout understanding, adding custom components to layouts
+- Styling options: Styling Next.js projects with CSS Modules, exploring different styling approaches
+- Image optimization: Using the Next.js Image component for automatic image optimization, responsive images, performance benefits
+- Custom components: Building and using custom components, populating page content
+- Image slideshow: Preparing interactive UI components, working with client-side features
+- Server vs Client Components: Understanding React Server Components vs Client Components, when to use each, performance implications
+- Efficient Client Components: Using Client Components efficiently, minimizing client-side JavaScript, optimizing bundle size
+- Data rendering: Outputting data with dynamic image dimensions, handling unknown image sizes
+- Database setup: Setting up SQLite database, preparing data persistence layer
+- Fullstack capabilities: Fetching data server-side with Next.js, leveraging fullstack features
+- Loading states: Adding loading pages, using Suspense for granular loading state management, streamed responses
+- Error handling: Handling errors with error.js, displaying user-friendly error pages
+- Not Found states: Handling 404 states with not-found.js, custom not found pages
+- Meal details: Loading and rendering details via dynamic routes, working with route parameters
+- Not Found errors: Throwing not found errors for specific resources, handling missing data
+- Form creation: Getting started with forms, building the "Share Meal" form
+- Custom inputs: Creating custom image picker input components, handling file uploads
+- Image preview: Adding image preview functionality, enhancing user experience
+- Server Actions: Using Server Actions for form submissions, handling form data server-side
+- Code organization: Storing Server Actions in separate files, organizing server-side code
+- Input sanitization: Creating slugs, sanitizing user input for XSS protection, security best practices
+- File storage: Storing uploaded images, saving data to database, managing file uploads
+- Form status: Managing form submission status with useFormStatus, providing user feedback
+- Server validation: Adding server-side input validation, validating data before processing
+- Form state: Working with Server Action responses and useFormState, handling validation errors
+- Production builds: Building for production, understanding Next.js caching strategies
+- Cache revalidation: Triggering cache revalidations, keeping data fresh, on-demand revalidation
+- File storage considerations: Understanding why not to store files locally in production
+- Cloud storage: Storing uploaded images in the cloud (AWS S3), production-ready file management
+- Static metadata: Adding static metadata to pages, SEO optimization
+- Dynamic metadata: Adding dynamic metadata based on page content, generating meta tags programmatically
+
+**Pages Router (Legacy Next.js):**
+- Pages Router introduction: Understanding the Pages Router, when it's still relevant
+- Pages Router setup: Creating Next.js projects with Pages Router, analyzing project structure
+- First pages: Adding pages to the pages directory, basic routing
+- Nested routes: Creating nested paths and pages, organizing route hierarchies
+- Dynamic pages: Creating dynamic pages with parameters, using bracket notation
+- Parameter extraction: Extracting dynamic parameter values, accessing route params
+- Page linking: Linking between pages with Link component, navigation patterns
+- Bigger project: Building a complete meetups application, practical implementation
+- Project preparation: Preparing project pages and structure
+- Meetup list: Outputting lists of data, rendering dynamic content
+- Meetup form: Adding forms for creating new meetups, form handling
+- _app.js file: Using _app.js for layout wrappers, global configuration
+- Programmatic navigation: Using imperative navigation with useRouter, redirecting users
+- Custom components: Adding custom components and CSS Modules, styling approaches
+- Pre-rendering: Understanding how pre-rendering works, identifying problems with client-side rendering
+- Static generation: Data fetching for static pages with getStaticProps, Static Site Generation (SSG)
+- SSG deep dive: More on Static Site Generation, when to use SSG
+- Server-side rendering: Using getServerSideProps for SSR, dynamic server rendering
+- SSG with params: Working with parameters for SSG data fetching, generating static paths
+- getStaticPaths: Preparing paths with getStaticPaths, working with fallback pages
+- API Routes: Introducing API Routes, creating backend endpoints in Next.js
+- MongoDB integration: Working with MongoDB for data persistence, connecting to databases
+- HTTP requests: Sending HTTP requests to API Routes, full-stack data flow
+- Database queries: Getting data from the database, querying and displaying data
+- Detail pages: Getting meetup details data, preparing dynamic detail pages
+- Metadata: Adding head metadata for SEO, managing page meta tags
+- Deployment: Deploying Next.js projects to production, deployment strategies
+- Fallback pages: Using fallback pages in production, re-deploying updates
+- Best practices: Choosing between App Router and Pages Router, migration considerations, performance optimization
+
+## [Animations in React Apps]()
+A comprehensive guide to creating animations in React applications using CSS and Framer Motion. This module covers animation fundamentals from CSS transitions to advanced Framer Motion features like layout animations, scroll-based animations, and orchestrated multi-element animations for building engaging and interactive user interfaces.
+
+#### Key topics covered:
+
+- Project setup: Setting up the animation demo project, overview of examples and use cases
+- CSS Transitions: Animating with CSS transitions, understanding transition properties, timing functions, creating smooth state changes
+- CSS Animations: Using CSS animations and keyframes, creating complex animation sequences, animation properties and control
+- Framer Motion introduction: Understanding what Framer Motion is, why use a library for animations, installation and setup
+- Framer Motion basics: Core Framer Motion concepts, motion components, animate prop, basic animation properties
+- Conditional animations: Animating between conditional values, responding to state changes, dynamic animation targets
+- Entry animations: Adding animations when elements appear, initial and animate props, creating entrance effects
+- Exit animations: Animating element disappearances and removal, AnimatePresence component, handling unmounting animations
+- Hover animations: Making elements "pop" with hover effects, whileHover prop, interactive animation states
+- Reusable animation states: Defining and reusing animation configurations, creating animation presets, DRY animation code
+- Variants: Using nested animations with variants, creating coordinated animations, parent-child animation relationships
+- Staggered lists: Animating staggered lists with stagger children, creating sequential animations, timing delays
+- Color animations: Animating colors smoothly, working with keyframes for complex sequences, multi-step animations
+- Imperative animations: Controlling animations imperatively with useAnimate hook, triggering animations programmatically
+- Layout animations: Animating layout changes with layout prop, smooth transitions during DOM changes, automatic layout animations
+- Multi-element orchestration: Orchestrating animations across multiple elements, coordinating timing, creating complex animation sequences
+- Combined animations: Combining regular animations with layout animations, advanced animation patterns
+- Shared elements: Animating shared elements between different states, layoutId for seamless transitions
+- Re-triggering animations: Using keys to re-trigger animations, forcing animation replays, controlling animation lifecycle
+- Scroll-based animations: Creating scroll-based animations, useScroll hook, scroll progress tracking, parallax effects, viewport-based animations
+- Best practices: Performance considerations, when to use CSS vs JavaScript animations, animation accessibility, optimizing animation performance
