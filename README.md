@@ -606,3 +606,21 @@ A comprehensive guide to creating animations in React applications using CSS and
 - Re-triggering animations: Using keys to re-trigger animations, forcing animation replays, controlling animation lifecycle
 - Scroll-based animations: Creating scroll-based animations, useScroll hook, scroll progress tracking, parallax effects, viewport-based animations
 - Best practices: Performance considerations, when to use CSS vs JavaScript animations, animation accessibility, optimizing animation performance
+
+## [React Patterns & Best Practices]()
+An exploration of advanced React patterns for building flexible and reusable components. This module covers compound components, render props, state sharing strategies, and performance optimization techniques like debouncing to create maintainable and scalable React applications with elegant component APIs.
+
+#### Key topics covered:
+
+- Project overview: Understanding the demo project structure, identifying patterns to be implemented
+- Compound components: Introducing the compound component pattern, creating components that work together, building flexible component APIs
+- Multi-component state: Managing state across compound components with Context API, sharing state between related components
+- Grouping components: Grouping compound components logically, organizing related components, namespace patterns
+- Extra components: Adding components for increased reusability and configurability, building composable component systems
+- Cross-component state: Sharing state across compound components, coordinating component behavior, maintaining consistency
+- Render props introduction: Understanding the render props pattern, using functions as children, delegating rendering control
+- Search implementation: Adding search functionality to React apps, building searchable lists and interfaces
+- Search with render props: Implementing search functionality using render props pattern, flexible search components
+- Dynamic key handling: Handling keys dynamically for different data structures, flexible data access patterns
+- Debouncing: Working with debouncing for performance optimization, delaying expensive operations, improving search performance
+- Best practices: When to use each pattern, choosing between compound components and render props, performance considerations, API design principles
